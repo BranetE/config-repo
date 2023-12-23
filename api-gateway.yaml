@@ -6,3 +6,5 @@ eureka:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
   instance:
     prefer-ip-address: true
+jwt:
+  secret: "CECF479371E92D21727A62A36B292"
