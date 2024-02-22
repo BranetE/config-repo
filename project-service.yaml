@@ -4,9 +4,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/project_service
     username: postgres
     password: root
-  jpa:
-    hibernate:
-      ddl-auto: create
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
 server:
   port: 8060
 eureka:
